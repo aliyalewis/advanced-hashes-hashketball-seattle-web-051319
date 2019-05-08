@@ -176,7 +176,7 @@ def player_numbers(team_name)
             player.each do |stat, value|
               if player == value
                 return team_name[:number]
-              # binding.pry
+              binding.pry
               end
             end
           end
