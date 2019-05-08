@@ -192,7 +192,6 @@ def player_stats(player_name)
         data.each do |player|
           if player_name == player[:name]
             .delete(:name)
-            return player
           # binding.pry
           end
         end
