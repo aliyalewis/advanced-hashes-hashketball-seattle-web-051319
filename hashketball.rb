@@ -191,6 +191,8 @@ def player_stats(player_name)
       if attribute == :players
         data.each do |player|
           if player_name == player[:name]
+            .delete(:name)
+            return player
           # binding.pry
           end
         end
