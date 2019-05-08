@@ -139,7 +139,7 @@ end
 def shoe_size(player_name)
   game_hash.each do |location, team_data|
     team_data[:players].each do |player|
-      player[:number].each do |stat, value|
+      player.each do |stat, value|
         if player_name == value
           return player[:shoe]
         end
@@ -173,7 +173,7 @@ def player_numbers(team_name)
       team_data.each do |attribute, data|
         if attribute == :players
           data.each do |player|
-            player.each do |stat, value|
+            player[:number].each do |stat, value|
               # if player == value
                 # return team_name[:number]
               binding.pry
