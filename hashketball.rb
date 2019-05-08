@@ -204,7 +204,7 @@ end
 
 def big_shoe_rebounds
   biggest_shoe = 0
-  most_rebounds = 0
+  number_of_rebounds = 0
 
   game_hash.each do |location, team_data|
     team_data.each do |attribute, data|
