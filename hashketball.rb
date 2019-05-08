@@ -203,12 +203,15 @@ end
 
 
 def big_shoe_rebounds
+  biggest_shoe = 0
+  most_rebounds = 0
+  
   game_hash.each do |location, team_data|
     team_data.each do |attribute, data|
       if attribute == :players
         data.each do |player|
-          if player == :name
-            return :shoe
+          if player == player[:name]
+            return player[:shoe]
       binding.pry
         end
       end
