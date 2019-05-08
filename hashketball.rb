@@ -173,12 +173,10 @@ def player_numbers(team_name)
     if team_data[:team_name] == team_name
       team_data.each do |attribute, data|
         if attribute == :players
-          data.each do |player,stat|
-            jersey_numbers << stat[:number]
+          data.each do |player|
           end
         end
       end
     end
   end
-  jersey_numbers
 end
