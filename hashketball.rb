@@ -125,5 +125,6 @@ end
 
 
 def num_points_scored(name)
-  game_hash[:away][:players][:name]["Jeff Adrien"][:points]
+  game_hash.each do |location, team_data|
+    binding.pry
 end
