@@ -176,8 +176,9 @@ def player_numbers(team_name)
           data.each do |player|
             player.each do |stat, value|
               if player == value
-
+                return team_name[:number]
               binding.pry
+              end
             end
           end
         end
