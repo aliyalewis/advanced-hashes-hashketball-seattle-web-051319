@@ -200,3 +200,12 @@ def player_stats(player_name)
     end
   end
 end
+
+
+def big_shoe_rebounds
+  game_hash.each do |location, team_data|
+    team_data.each do |attribute, data|
+      binding.pry
+    end
+  end
+end
