@@ -138,5 +138,6 @@ end
 
 def shoe_size(players_name)
   game_hash.each do |location, team_data|
+    binding.pry
   end
 end
