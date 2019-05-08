@@ -125,4 +125,5 @@ end
 
 
 def num_points_scored(name)
-  game_hash[:home][:players][:name]
+  game_hash[:away][:players][:name]["Jeff Adrien"][:points]
+end
