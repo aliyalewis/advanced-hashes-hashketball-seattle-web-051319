@@ -211,10 +211,11 @@ def big_shoe_rebounds
       if attribute == :players
         data.each do |player|
           if player == player[:name]
+              binding.pry
             player[:shoe] > biggest_shoe
             biggest_shoe = player[:shoe]
             most_rebounds = player[:reobunds]
-      # binding.pry
+    
           end
         end
       end
