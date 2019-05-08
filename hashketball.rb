@@ -190,7 +190,9 @@ def player_stats(player_name)
     team_data.each do |attribute, data|
       if attribute == :players
         data.each do |player|
+          if player_name == player[:name]
           # binding.pry
+          end
         end
       end
     end
