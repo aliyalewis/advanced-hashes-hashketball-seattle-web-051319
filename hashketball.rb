@@ -190,7 +190,7 @@ def player_stats(player_name)
   game_hash.each do |location, team_data|
       binding.pry
     team_data[:player].each do |attribute, data|
-    
+
     end
   end
 end
