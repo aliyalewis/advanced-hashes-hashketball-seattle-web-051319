@@ -210,7 +210,6 @@ def big_shoe_rebounds
           # if player == :name
 
       binding.pry
-          end
         end
       end
     end
