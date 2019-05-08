@@ -141,6 +141,7 @@ def shoe_size(players_name)
     team_data[:players].each do |player|
       player.each do |stat, value|
     binding.pry
+      end
     end
   end
 end
