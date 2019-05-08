@@ -176,6 +176,7 @@ def player_numbers(team_name)
           data.each do |player|
             player.each do |number|
         binding.pry
+            end
           end
         end
       end
