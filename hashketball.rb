@@ -159,9 +159,9 @@ end
 
 
 def team_names
+  team_names = []
   game_hash.each do |location, team_data|
-    if team_data[:team_name] == [:team_name]
-      return [:team_name]
-    end
+    team_names << team_data[:team_name]
   end
+  team_names
 end
