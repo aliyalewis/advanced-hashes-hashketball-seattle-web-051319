@@ -192,6 +192,7 @@ def player_stats(player_name)
         data.each do |player|
           if player == player_name
 binding.pry
+          end
         end
       end
     end
